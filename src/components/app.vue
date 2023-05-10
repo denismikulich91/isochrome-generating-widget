@@ -1,7 +1,7 @@
 <template>
     <div class="q-pa-md example-column-row-width">
         <q-banner inline-actions class="text-white bg-blue">
-            <div class="widget-name" style="font-size: 25px;">Isochrones generator</div>
+            <div class="widget-name" style="font-size: 25px;">Isochrones generators</div>
         </q-banner>
         <q-input v-model="distance" filled label="Set the isochrone distance in minutes" />
         <q-select v-model="pathParameter" filled :options="pathOptions" label="Path parameter" />
